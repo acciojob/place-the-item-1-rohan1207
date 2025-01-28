@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.holder {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+   
+    padding: 10px; /* Add padding to keep items from sticking to edges */
+    
+}
+
+
+.item {
+    
+    padding: 10px 20px; 
+    border: 1px solid #000; 
+    background-color: #f3f3f3; 
+    text-align: center; 
+    font-size: 16px;
+}
